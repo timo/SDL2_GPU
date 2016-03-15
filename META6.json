@@ -1,0 +1,12 @@
+{
+    "name" : "SDL2::GPU::Raw",
+    "perl" : "6.*",
+    "version" : "0.1",
+    "description" : "Sugar-free NativeCall binding for SDL_gpu (SDL2)",
+    "depends" : [ "SDL2::Raw" ],
+    "source-url" : "git://github.com/timo/SDL2_GPU.git",
+    "author" : "Timo Paulssen",
+    "provides": {
+        "SDL2::GPU::Raw": "lib/SDL2/GPU/Raw.pm6"
+    }
+}
